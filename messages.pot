@@ -1,0 +1,329 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-05-27 12:35+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: project/templates/account.html:20
+msgid "Account"
+msgstr ""
+
+#: project/templates/account.html:20
+msgid "settings"
+msgstr ""
+
+#: project/templates/account.html:22
+msgid "Profile Photo"
+msgstr ""
+
+#: project/templates/account.html:23
+msgid "Accepted file type .png. Less than 1MB"
+msgstr ""
+
+#: project/templates/account.html:38
+msgid "Go back"
+msgstr ""
+
+#: project/templates/change.html:20
+msgid "Create your new password"
+msgstr ""
+
+#: project/templates/contact.html:20 project/templates/forgot.html:13
+#: project/templates/login.html:13 project/templates/signup.html:16
+msgid "Go to the main page"
+msgstr ""
+
+#: project/templates/contact.html:25
+msgid "Contact "
+msgstr ""
+
+#: project/templates/contact.html:25
+msgid "Us"
+msgstr ""
+
+#: project/templates/contact.html:32
+msgid "Support"
+msgstr ""
+
+#: project/templates/forgot.html:20
+msgid "Forgot your password?"
+msgstr ""
+
+#: project/templates/index.html:65 project/templates/index.html:446
+msgid "Home"
+msgstr ""
+
+#: project/templates/index.html:68 project/templates/index.html:171
+#: project/templates/index.html:447
+msgid "Crypto"
+msgstr ""
+
+#: project/templates/index.html:71
+msgid "What You'll Learn"
+msgstr ""
+
+#: project/templates/index.html:74 project/templates/index.html:449
+msgid "Facts"
+msgstr ""
+
+#: project/templates/index.html:77 project/templates/index.html:450
+msgid "How It Works"
+msgstr ""
+
+#: project/templates/index.html:85 project/templates/index.html:127
+msgid "Course"
+msgstr ""
+
+#: project/templates/index.html:88
+msgid "Contact"
+msgstr ""
+
+#: project/templates/index.html:92
+msgid "Confirm gmail"
+msgstr ""
+
+#: project/templates/index.html:121 project/templates/index.html:139
+msgid "Your future begins here"
+msgstr ""
+
+#: project/templates/index.html:123 project/templates/index.html:141
+msgid "A journey of a thousand miles must begin with a single step."
+msgstr ""
+
+#: project/templates/index.html:125
+msgid "Welcome back"
+msgstr ""
+
+#: project/templates/index.html:125
+msgid "your id is"
+msgstr ""
+
+#: project/templates/index.html:132
+msgid "To get access to materials of the course, you have to confirm your email"
+msgstr ""
+
+#: project/templates/index.html:135
+msgid "Please confirm your email"
+msgstr ""
+
+#: project/templates/index.html:144
+msgid "Start Learning"
+msgstr ""
+
+#: project/templates/index.html:171
+msgid "Currency"
+msgstr ""
+
+#: project/templates/index.html:233
+msgid "What "
+msgstr ""
+
+#: project/templates/index.html:233
+msgid "you'll learn"
+msgstr ""
+
+#: project/templates/index.html:241
+msgid "Wallets"
+msgstr ""
+
+#: project/templates/index.html:242
+msgid ""
+"Know about 4 types of wallets and how to secure your crypto currency "
+"investments"
+msgstr ""
+
+#: project/templates/index.html:246
+msgid "Terminology"
+msgstr ""
+
+#: project/templates/index.html:247
+msgid "Understand advanced cryptocurrency terminology and principles"
+msgstr ""
+
+#: project/templates/index.html:251
+msgid "Trade"
+msgstr ""
+
+#: project/templates/index.html:252
+msgid ""
+"Trade cryptocurrencies with systematic trading process like a "
+"professional trader"
+msgstr ""
+
+#: project/templates/index.html:256
+msgid "Mining"
+msgstr ""
+
+#: project/templates/index.html:257
+msgid "Understand the basics of mining and setting up a Bitcoin mining facility"
+msgstr ""
+
+#: project/templates/index.html:261
+msgid "Portfolio"
+msgstr ""
+
+#: project/templates/index.html:262
+msgid ""
+"Master the art of putting together a profitable diversified investment "
+"portfolio"
+msgstr ""
+
+#: project/templates/index.html:266
+msgid "News"
+msgstr ""
+
+#: project/templates/index.html:267
+msgid "Know where to get news related to cryptocurrency trading"
+msgstr ""
+
+#: project/templates/index.html:321
+msgid "How it"
+msgstr ""
+
+#: project/templates/index.html:321
+msgid "works"
+msgstr ""
+
+#: project/templates/index.html:329
+msgid "Decide"
+msgstr ""
+
+#: project/templates/index.html:336
+msgid "Register"
+msgstr ""
+
+#: project/templates/index.html:343
+msgid "Learn"
+msgstr ""
+
+#: project/templates/index.html:350
+msgid "Invest"
+msgstr ""
+
+#: project/templates/index.html:374
+msgid "Frequently"
+msgstr ""
+
+#: project/templates/index.html:374
+msgid "asked"
+msgstr ""
+
+#: project/templates/index.html:374
+msgid "questions"
+msgstr ""
+
+#: project/templates/index.html:383
+msgid "Who this course is for?"
+msgstr ""
+
+#: project/templates/index.html:387
+msgid ""
+"If you are serious about Making Money Online by investing in the "
+"Cryptocurrency Market, this course is for you!"
+msgstr ""
+
+#: project/templates/index.html:388
+msgid ""
+"If you want to Create a New Source of Passive Income, you've come to the "
+"right place!"
+msgstr ""
+
+#: project/templates/index.html:389
+msgid ""
+"If you want to find a Trading Strategy that Actually Works, you should "
+"not ignore this course!"
+msgstr ""
+
+#: project/templates/index.html:390
+msgid ""
+"If you are learning everything about Cryptocurrency Trading, this course "
+"will be a Shortcut!"
+msgstr ""
+
+#: project/templates/index.html:391
+msgid ""
+"This course is for EVERYONE, who wants to Get Rich by Investing in the "
+"Cryptocurrency Market."
+msgstr ""
+
+#: project/templates/index.html:398
+msgid "What exactly will you teach me?"
+msgstr ""
+
+#: project/templates/index.html:402
+msgid ""
+"I’ll teach you exactly what to invest in, when to buy, when to sell, and "
+"most importantly teach you my best technical analysis techniques that can"
+" help you predict the next market move in less than 15 minutes with high-"
+"accuracy (and you’ll learn with dozens of real world examples). "
+msgstr ""
+
+#: project/templates/index.html:436
+msgid "About Us"
+msgstr ""
+
+#: project/templates/index.html:448
+msgid "Features"
+msgstr ""
+
+#: project/templates/index.html:451
+msgid "FAQ"
+msgstr ""
+
+#: project/templates/index.html:458
+msgid "Social Pages"
+msgstr ""
+
+#: project/templates/login.html:17
+msgid "The email address or password is incorrect. Please try again."
+msgstr ""
+
+#: project/templates/login.html:31
+msgid "Log In"
+msgstr ""
+
+#: project/templates/login.html:52
+msgid "Don't have an account?"
+msgstr ""
+
+#: project/templates/login.html:53
+msgid "Forgot Password?"
+msgstr ""
+
+#: project/templates/signup.html:20
+msgid "Your email has been registered already!"
+msgstr ""
+
+#: project/templates/signup.html:30
+msgid "Your username has been registered already!"
+msgstr ""
+
+#: project/templates/signup.html:44
+msgid "Registration"
+msgstr ""
+
+#: project/templates/signup.html:83
+msgid "Already have an account?"
+msgstr ""
+
+#: project/templates/thanks.html:30
+msgid "Thanks!"
+msgstr ""
+
+#: project/templates/thanks.html:31
+msgid "For confirming your email address"
+msgstr ""
+
