@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<link rel="stylesheet" href="{{ url_for('static',filename='css/font-awesome.css') }}">
+	<!-- bootstrap css -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+  <!-- main css -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style-ls.css') }} ">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<a href="{{url_for('core.index')}}" class="fixed"><i class="fas fa-arrow-left"></i>{{_('Go to the main page')}}</a>
+	{% for error in form.email.errors %}
+
+	<div class="alert alert-danger alert-dismissible fade show" role="alert">
+<strong>{{_('Your email has been registered already!')}}</strong>
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+
+{% endfor %}
+{% for error in form.username.errors %}
+
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+<strong>{{_('Your username has been registered already!')}}</strong>
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+
+
+{% endfor %}
+	<div class="container">
+
+		<div class="login-content">
+			<form method="POST">
+				{{form.hidden_tag()}}
+
+				<h2 class="title">{{_('Registration')}}</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+
+										{{form.username(class="input",onfocus="this.placeholder = ''", onblur="this.placeholder = 'Username'", placeholder="Username")}}
+
+           		   </div>
+
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i">
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+
+										{{form.email(class="input",onfocus="this.placeholder = ''", onblur="this.placeholder = 'Email'", placeholder="Email")}}
+            	   </div>
+            	</div>
+           		<div class="input-div pass">
+           		   <div class="i">
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+
+										{{form.password(class="input",onfocus="this.placeholder = ''", onblur="this.placeholder = 'Password'", placeholder="Password")}}
+            	   </div>
+            	</div>
+							<div class="input-div pass">
+           		   <div class="i">
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+
+										{{form.pass_confirm(class="input",onfocus="this.placeholder = ''", onblur="this.placeholder = 'Password confirm'", placeholder="Password confirm")}}
+            	   </div>
+            	</div>
+							<a href="{{url_for('users.login')}}">{{_('Already have an account?')}}</a>
+
+							{{form.submit(class="btn", value="Register")}}
+
+            </form>
+
+        </div>
+
+    </div>
+		<!-- jquery js -->
+		<script src="{{ url_for('static',filename='js/jquery.min.js') }} "></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/main-ls.js') }}"></script>
+		<!-- bootstrap js -->
+		<script src="{{ url_for('static',filename='js/bootstrap.min.js') }} "></script>
+	<script src="{{ url_for('static',filename='js/script.js') }}"></script>
+</body>
+</html>

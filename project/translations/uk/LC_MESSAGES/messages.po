@@ -1,0 +1,334 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-05-27 12:35+0300\n"
+"PO-Revision-Date: 2022-05-27 12:35+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.1\n"
+
+#: project/templates/account.html:20
+msgid "Account"
+msgstr "Акаунт"
+
+#: project/templates/account.html:20
+msgid "settings"
+msgstr "Налаштування"
+
+#: project/templates/account.html:22
+msgid "Profile Photo"
+msgstr "Фото користувача"
+
+#: project/templates/account.html:23
+msgid "Accepted file type .png. Less than 1MB"
+msgstr "Допустимі типи файлів .png. Менше 1MB"
+
+#: project/templates/account.html:38
+msgid "Go back"
+msgstr "Назад"
+
+#: project/templates/change.html:20
+msgid "Create your new password"
+msgstr "Створіть свій новий пароль"
+
+#: project/templates/contact.html:20 project/templates/forgot.html:13
+#: project/templates/login.html:13 project/templates/signup.html:16
+msgid "Go to the main page"
+msgstr "Повернутися на головну"
+
+#: project/templates/contact.html:25
+msgid "Contact "
+msgstr "Зв'яжіться"
+
+#: project/templates/contact.html:25
+msgid "Us"
+msgstr "з нами"
+
+#: project/templates/contact.html:32
+msgid "Support"
+msgstr "Підтримка"
+
+#: project/templates/forgot.html:20
+msgid "Forgot your password?"
+msgstr "Забули пароль?"
+
+#: project/templates/index.html:65 project/templates/index.html:446
+msgid "Home"
+msgstr "Головна"
+
+#: project/templates/index.html:68 project/templates/index.html:171
+#: project/templates/index.html:447
+msgid "Crypto"
+msgstr "Crypto"
+
+#: project/templates/index.html:71
+msgid "What You'll Learn"
+msgstr "Що ви вивчите"
+
+#: project/templates/index.html:74 project/templates/index.html:449
+msgid "Facts"
+msgstr "Факти"
+
+#: project/templates/index.html:77 project/templates/index.html:450
+msgid "How It Works"
+msgstr "Як це працює"
+
+#: project/templates/index.html:85 project/templates/index.html:127
+msgid "Course"
+msgstr "Курс"
+
+#: project/templates/index.html:88
+msgid "Contact"
+msgstr "Зв'язок"
+
+#: project/templates/index.html:92
+msgid "Confirm gmail"
+msgstr "Підтвердіть пошту"
+
+#: project/templates/index.html:121 project/templates/index.html:139
+msgid "Your future begins here"
+msgstr "Твоє майбутнє починається тут"
+
+#: project/templates/index.html:123 project/templates/index.html:141
+msgid "A journey of a thousand miles must begin with a single step."
+msgstr "Подорож довжиною в тисячу миль починається з першого кроку"
+
+#: project/templates/index.html:125
+msgid "Welcome back"
+msgstr "Вітаємо"
+
+#: project/templates/index.html:125
+msgid "your id is"
+msgstr "ваш id"
+
+#: project/templates/index.html:127
+msgid "Course"
+msgstr "Курс"
+
+#: project/templates/index.html:132
+msgid "To get access to materials of the course, you have to confirm your email"
+msgstr "Для того щоб отримати доступ до матеріалів курсу, вам треба підтвердити свою поштову адресу"
+
+#: project/templates/index.html:135
+msgid "Please confirm your email"
+msgstr "Будь ласка підтвердіть свою пошту"
+
+#: project/templates/index.html:144
+msgid "Start Learning"
+msgstr "Почни навчання"
+
+#: project/templates/index.html:171
+msgid "Currency"
+msgstr "Валюта"
+
+#: project/templates/index.html:233
+msgid "What "
+msgstr "Що"
+
+#: project/templates/index.html:233
+msgid "you'll learn"
+msgstr " ви вивчите"
+
+#: project/templates/index.html:241
+msgid "Wallets"
+msgstr "Гаманці"
+
+#: project/templates/index.html:242
+msgid ""
+"Know about 4 types of wallets and how to secure your crypto currency "
+"investments"
+msgstr "Дізнайте про 4 типи гаманців та як захистити ваші крипто інвестиції"
+
+#: project/templates/index.html:246
+msgid "Terminology"
+msgstr "Термінологія"
+
+#: project/templates/index.html:247
+msgid "Understand advanced cryptocurrency terminology and principles"
+msgstr "Розумійте сучасну крипту термінологію та принципи"
+
+#: project/templates/index.html:251
+msgid "Trade"
+msgstr "Торгівля"
+
+#: project/templates/index.html:252
+msgid ""
+"Trade cryptocurrencies with systematic trading process like a "
+"professional trader"
+msgstr "Торгуйте криптолютами як професіональний трейдер"
+
+#: project/templates/index.html:256
+msgid "Mining"
+msgstr "Майнінг"
+
+#: project/templates/index.html:257
+msgid "Understand the basics of mining and setting up a Bitcoin mining facility"
+msgstr "Зрозумійте основи майнінгу та налаштування майнінг ферми"
+
+#: project/templates/index.html:261
+msgid "Portfolio"
+msgstr "Портфоліо"
+
+#: project/templates/index.html:262
+msgid ""
+"Master the art of putting together a profitable diversified investment "
+"portfolio"
+msgstr "Опануйте мистецтво складання вигідних диверсифікованих інвестицій портфоліо"
+
+#: project/templates/index.html:266
+msgid "News"
+msgstr "Новини"
+
+#: project/templates/index.html:267
+msgid "Know where to get news related to cryptocurrency trading"
+msgstr "Знайте де брати новини по торгівлі криптовалютою"
+
+#: project/templates/index.html:321
+msgid "How it"
+msgstr "Як це"
+
+#: project/templates/index.html:321
+msgid "works"
+msgstr " працює"
+
+#: project/templates/index.html:329
+msgid "Decide"
+msgstr "Прийми рішення"
+
+#: project/templates/index.html:336
+msgid "Register"
+msgstr "Зареєструйся"
+
+#: project/templates/index.html:343
+msgid "Learn"
+msgstr "Вивчай"
+
+#: project/templates/index.html:350
+msgid "Invest"
+msgstr "Інвестуй"
+
+#: project/templates/index.html:374
+msgid "Frequently"
+msgstr "Часто"
+
+#: project/templates/index.html:374
+msgid "asked"
+msgstr " запитуємі"
+
+#: project/templates/index.html:374
+msgid "questions"
+msgstr " питання"
+
+#: project/templates/index.html:383
+msgid "Who this course is for?"
+msgstr "Для кого цей курс?"
+
+#: project/templates/index.html:387
+msgid ""
+"If you are serious about Making Money Online by investing in the "
+"Cryptocurrency Market, this course is for you!"
+msgstr "Якщо ви серйозно налаштовані про заробіток грошей інвестуючи в КриптоМаркет, цей курс для вас!"
+
+#: project/templates/index.html:388
+msgid ""
+"If you want to Create a New Source of Passive Income, you've come to the "
+"right place!"
+msgstr "Якщо ви хочете створити нове джерело Пасивного Доходу"
+
+#: project/templates/index.html:389
+msgid ""
+"If you want to find a Trading Strategy that Actually Works, you should "
+"not ignore this course!"
+msgstr "Якщо ви хочете знайти Торгову Стратегію яка працює, вам не слід ігнорувати цей курс!"
+
+#: project/templates/index.html:390
+msgid ""
+"If you are learning everything about Cryptocurrency Trading, this course "
+"will be a Shortcut!"
+msgstr "Якщо ви вивчаєте все про Торгівлю КриптоВалютами, цей курс буде для вас найкоротшим шляхом!"
+
+#: project/templates/index.html:391
+msgid ""
+"This course is for EVERYONE, who wants to Get Rich by Investing in the "
+"Cryptocurrency Market."
+msgstr "Цей курс для ВСІХ, кто хоче розбагатіти інвестувавши в Крипто Маркет!"
+
+#: project/templates/index.html:398
+msgid "What exactly will you teach me?"
+msgstr "Чому ви мене навчите?"
+
+#: project/templates/index.html:402
+msgid ""
+"I’ll teach you exactly what to invest in, when to buy, when to sell, and "
+"most importantly teach you my best technical analysis techniques that can"
+" help you predict the next market move in less than 15 minutes with high-"
+"accuracy (and you’ll learn with dozens of real world examples). "
+msgstr "Я навчу вас, у що саме інвестувати, коли купувати, коли продавати і найголовніше навчити вас моїм найкращим методам технічного аналізу, які можуть допоможе вам передбачити наступний рух ринку менш ніж за 15 хвилин з високим... точність (і ви навчитеся на десятках прикладів із реального світу)."
+
+#: project/templates/index.html:436
+msgid "About Us"
+msgstr "Про нас"
+
+#: project/templates/index.html:448
+msgid "Features"
+msgstr "Фішки"
+
+#: project/templates/index.html:451
+msgid "FAQ"
+msgstr "FAQ"
+
+#: project/templates/index.html:458
+msgid "Social Pages"
+msgstr "Соціальні сторінки"
+
+#: project/templates/login.html:17
+msgid "The email address or password is incorrect. Please try again."
+msgstr "Ваша поштова адреса або паспорт невірні. Будь ласка спробуйте ще."
+
+#: project/templates/login.html:31
+msgid "Log In"
+msgstr "Вхід"
+
+#: project/templates/login.html:52
+msgid "Don't have an account?"
+msgstr "Не маєте акаунту?"
+
+#: project/templates/login.html:53
+msgid "Forgot Password?"
+msgstr "Забули пароль?"
+
+#: project/templates/signup.html:20
+msgid "Your email has been registered already!"
+msgstr "Ваша поштова адреса вже зареєстрована!"
+
+#: project/templates/signup.html:30
+msgid "Your username has been registered already!"
+msgstr "Ваше ім'я вже зареєстровано!"
+
+#: project/templates/signup.html:44
+msgid "Registration"
+msgstr "Реєстрація"
+
+#: project/templates/signup.html:83
+msgid "Already have an account?"
+msgstr "Уже маєте акаунт?"
+
+#: project/templates/thanks.html:30
+msgid "Thanks!"
+msgstr "Дякую!"
+
+#: project/templates/thanks.html:31
+msgid "For confirming your email address"
+msgstr " За підтвердження своєї поштової адреси"
